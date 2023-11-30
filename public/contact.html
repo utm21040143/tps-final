@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/contact.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Josefin+Sans&family=Montserrat:wght@200;500&display=swap"
+        rel="stylesheet">
+    <title>Contact us</title>
+
+</head>
+
+<body>
+    <header id="miEncabezado">
+        <img src="/imgs/logoSinFondo.png" alt="Logo Tlamaki">
+        <nav>
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/index.html#about">Acerca de Nosotros</a></li>
+                <li><a href="/index.html#service">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Comunícate con nosotros</h2>
+        <form onsubmit="sendEmail(event); reset(); return false">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required rows="4" placeholder="¿Cómo podemos ayudarte?"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <footer class="text-center text-lg-start bg-white text-muted">
+
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+
+            <div class="me-5 d-none d-lg-block">
+                <span></span>
+            </div>
+
+            <div>
+
+                <a href="https://www.instagram.com/tlamaki_professional_services/" class="me-4 link-secondary">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/tlamaki-professional-services/about/"
+                    class="me-4 link-secondary">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+            </div>
+
+        </section>
+
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+
+                <div class="row mt-3">
+
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3 text-secondary"></i>Tlamaki Professional Services
+                        </h6>
+                        <p>
+                            Tlamaki en nahuatl signfica la libertad, es lo que nosotros queremos en nuestros proyectos,
+                            la libertad de crecer y desarrollarnos.
+                        </p>
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Products
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Diseño web</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Diagnóstico Situacional</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Capital Humano</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Seminarios</a>
+                        </p>
+                    </div>
+
+
+                    <div class="col-md-4 randomxd col-lg-3 col-xl-3 mx-auto mb-4">
+
+
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3 text-secondary"></i> Blvd. Luis Donaldo Colosio 609-1
+                            Jardines de la Concepción
+                            Aguascalientes, Ags
+                        </p>
+                        <p>
+                            <i class="fas fa-envelope me-3 text-secondary"></i>
+                            admin@tlamaki.com
+                        </p>
+
+                        <p><i class="fas fa-print me-3 text-secondary"></i> 449 361 1986</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <div class="text-center p-4" style="background-color: #7cccc5;">
+            © 2023 Copyright:
+            <a class="text-reset fw-bold" href="#">Tlamaki Profesional Services</a>
+        </div>
+
+    </footer>
+
+
+
+
+        
+    <script src="https://script.google.com/a/macros/tlamaki.com/s/AKfycbw5fA2NerokVCBkcoq-G3H83JbnkauuKQJ6vFt0ViN5Im1015ncLWXeTx-i3yM5TKX_BQ/exec">
+    </script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script>
+</body>
+
+</html>
